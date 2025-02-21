@@ -12,7 +12,7 @@ em uma máquina com pelo menos 50 GB de disco rígido, pelo menos 18 GB de RAM e
 para construir com sucesso todas as imagens padrão. Todas as tarefas exigem um
 usuário root. Faça o seguinte para obter os repositórios (sobrescrevendo portas e src padrão):
 
-    # pkg install git
+    # pkg install -y git py311-gdbm py311-sqlite3 py311-tkinter
     # cd /usr
     # git clone https://github.com/Christopher-YeTI/tools
     # cd tools
