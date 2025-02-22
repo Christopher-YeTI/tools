@@ -17,6 +17,7 @@ usuário root. Faça o seguinte para obter os repositórios (sobrescrevendo port
     # cd /usr
     # git clone https://github.com/Christopher-YeTI/tools
     # cd tools
+    # chmod +x /usr/tools/scripts/pkg_fingerprint.sh
     # make update
 
 Note que os repositórios YETIsense também podem ser configurados em um diretório não-/usr
